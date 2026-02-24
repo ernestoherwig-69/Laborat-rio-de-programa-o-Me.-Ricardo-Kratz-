@@ -1,0 +1,18 @@
+// Distância entre dois pontos
+#include <stdio.h>
+#include<math.h>
+    int main(){
+        //distância entre dois pontos
+        float x1, y1, x2, y2, distance;
+        printf("Insira pontos (X e Y) da primeira funcao:\n");
+        scanf("%f %f", &x1, &x2);
+        // Primeira função
+        printf("Insira agora os pontos da segunda funcao:\n");
+        scanf("%f %f", &x2, &y2);
+        // Segunda função
+        distance=sqrt(((x2 - x1)*(x2-x1)+ (y2-y1)*(y2-y1)));
+        // Cálculo
+        printf("A distancia eh: %.4f\n", distance);
+        // Monstrando o resultado final
+        return 0;
+    }  
