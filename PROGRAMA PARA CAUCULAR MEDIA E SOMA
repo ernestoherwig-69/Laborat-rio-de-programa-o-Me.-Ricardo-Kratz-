@@ -1,0 +1,19 @@
+#include <stdio.h>
+    int main(){
+        float firstnumber, secondnumber;
+        float sum, average;
+        printf("Ola insira o primeiro numero para fazermos a soma e a media aritimetica: \n");
+        scanf("%f", &firstnumber);
+
+        printf("Agora, insira o segundo numero: \n");
+        scanf("%f", &secondnumber);
+
+        sum = firstnumber + secondnumber;
+        average = (firstnumber+secondnumber)/2;
+
+        printf("A soma dos valores eh = %.0f\n", sum);
+        printf("A media eh = %.2f\n", average);
+        printf("Isso eh tudo obrigado :)");
+        return 0;
+    }  
+
