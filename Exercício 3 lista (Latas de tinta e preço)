@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+#define CANprice 20.00
+#define CANcanpaint 15.00
+#define pi 3.14159    
+    int main(){
+        float radius, height, area, Canquantity, Canfinalprice;
+    printf("Insira o Raio e a Altura do cilindro:\n");
+    scanf("%f %f", &radius, &height);
+    area = (2*pi*radius*height) + (2*pi*pow(radius, 2));
+    Canquantity = ceil(area/CANcanpaint);
+    Canfinalprice = Canquantity*CANprice;
+    printf("Quantidade de latas = %.2f\n", Canquantity);
+    printf("O Valor final sera de = R$ %.2f\n", Canfinalprice);
+        return 0;
+    }  
