@@ -1,0 +1,12 @@
+#include <stdio.h>
+    int main(){
+        float C, F;
+        
+        printf("Escreva a temperatura em celcius para obte-la em fahrenheit: \n");
+        scanf("%f", &C);
+
+        F = (C * (9.0/5)) + 32;
+
+        printf("A temperatura em fahrenheit eh: %.2f\n:)", F);
+        return 0;
+    }  
