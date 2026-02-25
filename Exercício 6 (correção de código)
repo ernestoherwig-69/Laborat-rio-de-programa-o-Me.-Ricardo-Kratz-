@@ -1,0 +1,3 @@
+6) Explique porque está errado fazer if(num=10)... O que irá acontecer?
+Resposta: O operador lógico '=' significa "recebe"... Ou seja o computador irá verificar se aquele número recebeu o valor dado. Se quisesemos comparar o valor para verificarmos se o número é igual a 10,
+teriamos que fazer da seguinte forma: if(num==10). Nesse caso, o operador '==' significa "compare", assim fazendo com que o computador compare o valor da variável com o valor númerico que queremos.
