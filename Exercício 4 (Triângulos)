@@ -1,0 +1,21 @@
+#include <stdio.h>   
+    int main(){
+    float Aside, Bside, Cside;
+    printf("Insira os valores 3 Lados do triangulo no formato: (A B C)\n");
+    scanf("%f %f %f", &Aside, &Bside, &Cside);
+    if(Aside<(Bside+Cside) && Bside<(Aside+Cside) && Cside<(Aside+Bside)){
+        if(Aside==Bside && Bside==Cside){
+        printf("Isso eh um triangulo equilatero\n");
+    }
+    else if (Aside==Bside || Aside==Cside || Bside==Cside){
+        printf("Isso eh um triangulo isoceles");
+    }
+    else{
+        printf("Triangulo escaleno");
+    }
+}
+   else{
+    printf("Isso nao eh triangulo");
+   }
+        return 0;
+    }  
