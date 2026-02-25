@@ -1,0 +1,31 @@
+#include <stdio.h>   
+    int main(){
+    int Number;
+    printf("Insira um numero inteiro para verificar se eh par ou impar:\n");
+    scanf("%d", &Number);
+    if (Number==0)
+    {
+        printf("O numero 0 eh impar");
+    }
+    else if (Number>0){
+        printf("Esse numero eh positivo e eh:\n");
+        if(Number % 2 == 0){;
+            printf("Par");
+        }
+        else{
+            printf("Impar");
+        }
+    } 
+    else if (Number<0){
+        printf("Esse numero eh negativo e eh:\n");
+        if(Number % 2 == 0){
+            printf("Par");
+        }
+        else{
+            printf("Impar");
+        }
+    }    
+    
+    
+        return 0;
+    }  
