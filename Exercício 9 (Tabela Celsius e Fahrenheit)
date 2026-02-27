@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    for(float cont= -100; cont<=100; cont+=10){
+        printf("%.2f C = ", cont);
+        printf("%.2f F\n", (cont*(9.0/5)+32));
+}    
+   return 0;
+}#include <stdio.h>
+int main(){
+    for(float cont= -100; cont<=100; cont+=10){
+        printf("%.2f C = ", cont);
+        printf("%.2f F\n", (cont*(9.0/5)+32));
+}    
+   return 0;
+}
