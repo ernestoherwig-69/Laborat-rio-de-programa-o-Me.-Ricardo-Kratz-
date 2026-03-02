@@ -1,0 +1,13 @@
+#include <stdio.h>
+    int main(){
+        int n;
+        float sum;
+        printf("Digite o numero para fazer a soma no formato 1/N:");
+        scanf("%d", &n);
+        for(float i=1; i<=n; i++){
+            sum+= 1/i;
+        }
+        printf("A soma eh = %.4f", sum);
+        
+        return 0;
+    } 
