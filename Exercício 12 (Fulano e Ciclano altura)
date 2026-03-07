@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    float Fulano = 1.50;
+    float Ciclano = 1.10;
+    int Anos = 0;
+
+    while (Ciclano <= Fulano){
+        Fulano += 0.02;
+        Ciclano += 0.03;
+        Anos += 1;
+    }
+
+    printf("A quantidade de anos eh %d\n", Anos);
+
+    return 0;
+}
